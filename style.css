@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0a0c1b;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.3rem;
+}
+
+.content {
+  padding-top: 5rem;
+  padding-left: 4.5rem;
+  background-color: #1c1938;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content h2 {
+  margin-right: 6rem;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.text {
+  word-spacing: 0.1rem;
+  text-align: left;
+  margin-right: 8rem;
+  margin-bottom: 5rem;
+  line-height: 1.5rem;
+  color: #a9a6c7;
+}
+
+.stats {
+  margin-right: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image {
+  background: #571c7e;
+}
+
+.image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.35;
+}
+
+.coloredText {
+  color: #a958da;
+}
+
+.number {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #9b98bb;
+}
+
+@media screen and (max-width: 1150px) {
+  main {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image {
+    width: 100%;
+  }
+  .card {
+    margin: 6rem 0;
+    padding: 0;
+    max-width: 90vw;
+
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content h2 {
+    margin: 2rem 2rem 0.75rem 2rem;
+    padding: 0;
+    font-size: 1.7rem;
+  }
+
+  .text {
+    margin: 0 1.2rem 2rem 1.2rem;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+  }
+
+  .stats {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  .number {
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+  }
+}
