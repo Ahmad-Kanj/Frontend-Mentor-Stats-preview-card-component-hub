@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://your-solution-url.com)
+- Solution URL:(https://github.com/Ahmad-Kanj/Frontend-Mentor-Stats-preview-card-component-hub)
 - Live Site URL:(https://ahmad-kanj.github.io/Frontend-Mentor-Stats-preview-card-component-hub/)
 
 ### Built with
