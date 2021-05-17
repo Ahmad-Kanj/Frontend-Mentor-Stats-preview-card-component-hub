@@ -22,9 +22,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
+![ScreenShot2](https://github.com/Ahmad-Kanj/Frontend-Mentor-Stats-preview-card-component-hub/blob/main/Screenshot_2.png)
+![ScreenShot1](https://github.com/Ahmad-Kanj/Frontend-Mentor-Stats-preview-card-component-hub/blob/main/Screenshot_1.png)
 
-![ScreenShot1](./screenshot_1.png)
-![ScreenShot1](./screenshot_2.png)
 
 ### Links
 
